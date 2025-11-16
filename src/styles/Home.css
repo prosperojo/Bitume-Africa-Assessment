@@ -23,13 +23,13 @@
   font-weight: 500;
 }
 
-/* Spinner rotation */
+
 @keyframes spin {
   0% { transform: rotate(0deg); }
   100% { transform: rotate(360deg); }
 }
 
-/* Fade-in for loading container */
+
 @keyframes fadeIn {
   0% { opacity: 0; transform: translateY(-10px); }
   100% { opacity: 1; transform: translateY(0); }
@@ -42,11 +42,8 @@
   justify-content: center;
   height: 150px;
   background-color: #fee2e2;
-  /* Light red background */
   color: #b91c1c;
-  /* Dark red text */
   border: 1px solid #fca5a5;
-  /* Red border */
   border-radius: 8px;
   padding: 16px;
   font-weight: 500;
@@ -62,14 +59,10 @@ body {
   color: #111827;
 }
 
-/* Container for main content */
   .home-container {
     max-width: 1200px;
-    /* limit the width */
     margin: 0 auto;
-    /* center horizontally */
     padding: 16px;
     overflow-x: hidden;
-    /* prevent horizontal scrolling */
     box-sizing: border-box;
   }

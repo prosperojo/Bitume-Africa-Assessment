@@ -16,7 +16,6 @@ export default function Home() {
   const [loading, setLoading] = useState(false);
   const [error, setError] = useState(null);
 
-  // Label for UI, value for API
   const categories = [
     { label: "All", value: "general" },
     { label: "Business", value: "business" },
@@ -49,12 +48,10 @@ export default function Home() {
     setLoading(false);
   };
 
-  // Fetch news when category changes
   useEffect(() => {
     fetchNews(category);
   }, [category]);
 
-  // Filter by search only
   const filteredArticles = articles.filter((article) =>
     article.title.toLowerCase().includes(search.toLowerCase())
   );

@@ -12,7 +12,6 @@
   box-shadow: 0 16px 40px rgba(0,0,0,0.2);
 }
 
-/* Image container with overlay */
 .hero-image-container {
   position: relative;
   width: 100%;
@@ -30,7 +29,6 @@
   transform: scale(1.05);
 }
 
-/* Overlay content */
 .hero-overlay {
   position: absolute;
   bottom: 0;
@@ -76,7 +74,6 @@
   transform: translateY(-2px);
 }
 
-/* Responsive adjustments */
 @media (max-width: 768px) {
   .hero-overlay h2 {
     font-size: 1.5rem;
