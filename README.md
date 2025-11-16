@@ -1,16 +1,18 @@
-# React + Vite
+# NewsToday
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+NewsToday is a modern, responsive news app built with **React** and **Vite**. It fetches real-time news from [NewsAPI.org](https://newsapi.org/) and allows users to browse news by category, search articles, and read headlines in a clean, user-friendly interface.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Features
 
-## React Compiler
+- Fetches news from multiple categories: General, Business, Technology, Sports, Health, Science, Entertainment.
+- Smooth loading spinner and error handling.
+- Responsive design with a sticky navbar and footer.
+- Search articles by title.
+- Hero post for the latest news.
+- Centered, card-based article layout.
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+---
 
-## Expanding the ESLint configuration
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
