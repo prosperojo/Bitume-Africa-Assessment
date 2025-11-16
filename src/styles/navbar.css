@@ -1,0 +1,21 @@
+.navbar {
+display: flex;
+justify-content: space-between;
+align-items: center;
+padding: 25px;
+background: #fff;
+border-bottom: 1px solid #eee;
+border-radius: 30px;
+}
+
+.nav-links {
+display: flex;
+gap: 20px;
+list-style: none;
+}
+
+.logo {
+    color: #2563eb;
+    font-size: larger;
+    font-weight: 900;
+}

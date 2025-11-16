@@ -1,0 +1,22 @@
+.categories {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin: 16px 0;
+  gap: 10px;
+}
+
+.categories button {
+  padding: 8px 16px;
+  border: none;
+  border-radius: 20px;
+  background-color: #e5e7eb;
+  cursor: pointer;
+  transition: background-color 0.2s ease;
+}
+
+.categories button.active,
+.categories button:hover {
+  background-color: #1e3a8a;
+  color: #fff;
+}

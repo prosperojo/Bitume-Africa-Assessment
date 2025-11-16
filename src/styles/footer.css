@@ -1,0 +1,33 @@
+.footer {
+  color: #f9fafc;
+  background: transparent;
+  text-align: center;
+  padding: 12px 12px;
+  margin-top: 20px;
+}
+
+.footer-links {
+  display: flex;
+  justify-content: center;
+  gap: 24px;
+  margin-bottom: 12px;
+  flex-wrap: wrap;
+}
+
+.footer-links a {
+  color: black;
+  text-decoration: none;
+  font-weight: 400;
+  padding: 6px 12px;
+  border-radius: 9999px;
+  transition: background-color 0.2s ease;
+}
+
+.footer-links a:hover {
+  background-color: #e0e0e0;
+}
+
+.footer-copy {
+  font-size: 0.9rem;
+  color: black;
+}

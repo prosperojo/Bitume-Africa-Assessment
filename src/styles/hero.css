@@ -1,0 +1,88 @@
+.hero-post {
+  max-width: 1000px;
+  margin: 32px auto;
+  border-radius: 16px;
+  overflow: hidden;
+  box-shadow: 0 12px 30px rgba(0,0,0,0.15);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.hero-post:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 16px 40px rgba(0,0,0,0.2);
+}
+
+/* Image container with overlay */
+.hero-image-container {
+  position: relative;
+  width: 100%;
+  height: 400px;
+}
+
+.hero-image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: transform 0.3s ease;
+}
+
+.hero-post:hover .hero-image {
+  transform: scale(1.05);
+}
+
+/* Overlay content */
+.hero-overlay {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  padding: 24px;
+  background: linear-gradient(180deg, rgba(0,0,0,0) 0%, rgba(0,0,0,0.7) 100%);
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  height: 100%;
+}
+
+.hero-overlay h2 {
+  font-size: 2rem;
+  font-weight: 700;
+  margin-bottom: 12px;
+  line-height: 1.2;
+  text-shadow: 1px 1px 4px rgba(0,0,0,0.7);
+}
+
+.hero-overlay p {
+  font-size: 1rem;
+  margin-bottom: 16px;
+  line-height: 1.4;
+  text-shadow: 1px 1px 4px rgba(0,0,0,0.6);
+}
+
+.hero-overlay .read-more-link {
+  align-self: flex-start;
+  padding: 10px 24px;
+  background-color: #1e3a8a;
+  color: #fff;
+  font-weight: 600;
+  border-radius: 24px;
+  text-decoration: none;
+  transition: background-color 0.2s ease, transform 0.2s ease;
+}
+
+.hero-overlay .read-more-link:hover {
+  background-color: #2563eb;
+  transform: translateY(-2px);
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+  .hero-overlay h2 {
+    font-size: 1.5rem;
+  }
+
+  .hero-overlay p {
+    font-size: 0.9rem;
+  }
+}
